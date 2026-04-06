@@ -19,5 +19,3 @@ IMAGE_FEATURES += "empty-root-password allow-empty-password allow-root-login pos
 
 IMAGE_FSTYPES += "wic wic.bmap"
 
-ENABLE_UART = "1" 
-
