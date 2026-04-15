@@ -18,3 +18,7 @@ IMAGE_FEATURES += "empty-root-password allow-empty-password allow-root-login pos
 
 IMAGE_FSTYPES += "wic wic.bmap"
 
+IMAGE_INSTALL:append = " bluez5"
+IMAGE_INSTALL:append = " linux-firmware-rpidistro-bcm43430"
+IMAGE_INSTALL:append = " bluez-firmware-rpidistro-bcm43430b0-hcd"
+IMAGE_INSTALL:append = " kernel-modules"
