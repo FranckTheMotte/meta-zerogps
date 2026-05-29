@@ -9,7 +9,7 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 
 SRC_URI = "git://github.com/FranckTheMotte/blufizz;protocol=https;branch=main"
 SRC_URI[sha256sum] = "6ae99f1d4e9d74db7d10373205a3d5f658ab8d28de6af30c7cf982bdea18eef2"
-SRCREV = "4cf9beeb7a7c08cc60a69be18ebebdd211db8dc5"
+SRCREV = "e3368f356d7f43457392e1f43f44918354c070a5"
 
 S = "${UNPACKDIR}/${PN}-${PV}"
 PV = "0.0.1"
