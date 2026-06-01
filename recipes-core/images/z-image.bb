@@ -16,8 +16,10 @@ IMAGE_ROOTFS_EXTRA_SPACE:append = "${@bb.utils.contains("DISTRO_FEATURES", "syst
 IMAGE_FEATURES += "dev-pkgs"
 IMAGE_FEATURES += "empty-root-password allow-empty-password allow-root-login post-install-logging"
 
+WKS_FILE = "z-image.wks"
 IMAGE_FSTYPES += "wic wic.bmap"
 
+IMAGE_INSTALL:append = " data-mountpoint"
 IMAGE_INSTALL:append = " bluez5"
 IMAGE_INSTALL:append = " linux-firmware-rpidistro-bcm43430"
 IMAGE_INSTALL:append = " bluez-firmware-rpidistro-bcm43430b0-hcd"
